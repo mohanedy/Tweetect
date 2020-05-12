@@ -23,7 +23,7 @@
 </p>
 
 ## ✍️Quick start
-This app require Twitter API key and API Secret Key order to run.
+This app require Twitter API key and API Secret Key in order to run.
  you can sign-up for twitter developer account from [here](https://developer.twitter.com/en/apply-for-access)
 * To add your API Key and API Secret Key you need to assign these constants with your API key values the code located in Main/Constant.swift :
 ```
@@ -47,7 +47,7 @@ and a lot more 😊 ...
 
 ## 📱 Screenshots
 
- <img src="https://i.imgur.com/BLcR427.gif" alt="Preview"  height=350> &nbsp;<img src="https://i.imgur.com/zikbEhD.png?1" alt="Home Screen"  height=350> &nbsp; <img src="https://i.imgur.com/VVf9oQz.png?1" alt="Flower1"  height=350> &nbsp;<img src="https://imgur.com/vuZmPKJ.png?1" alt="Flower2"  height=350> &nbsp;
+ <img src="https://imgur.com/FJIVr7Y.gif" alt="Preview"  height=350> &nbsp;<img src="https://i.imgur.com/zikbEhD.png?1" alt="Home Screen"  height=350> &nbsp; <img src="https://i.imgur.com/VVf9oQz.png?1" alt="Flower1"  height=350> &nbsp;<img src="https://imgur.com/vuZmPKJ.png?1" alt="Flower2"  height=350> &nbsp;
 
 ## ✔️ Requirements
 * iOS 10.0+
