@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TweetCell" rowHeight="211" id="KGk-i7-Jjw" customClass="TweetTableViewCell" customModule="Tweetect" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="349" height="211"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="349" height="211"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F83-u8-5GL" customClass="CardView" customModule="Tweetect" customModuleProvider="target">
+                        <rect key="frame" x="10" y="10" width="329" height="191"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="tNh-kP-2mN">
+                                <rect key="frame" x="10" y="10" width="309" height="171"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="6dL-aw-6CF">
+                                        <rect key="frame" x="0.0" y="0.0" width="309" height="60"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9Cy-Sg-PIb">
+                                                <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="Okf-ur-Ot9"/>
+                                                    <constraint firstAttribute="width" constant="60" id="aCD-Jb-GBt"/>
+                                                </constraints>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="KEU-Wn-B3G">
+                                                <rect key="frame" x="70" y="0.0" width="239" height="60"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iQ9-ya-C7x">
+                                                        <rect key="frame" x="0.0" y="0.0" width="239" height="30"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="18"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2E6-7l-u7x">
+                                                        <rect key="frame" x="0.0" y="30" width="239" height="30"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
+                                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tweetteafundsudonvadjvna;foivamv;ioamdvopiamvadsv" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eQk-zE-uBh">
+                                        <rect key="frame" x="0.0" y="60" width="309" height="81"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Neg" translatesAutoresizingMaskIntoConstraints="NO" id="BWO-fL-mnf">
+                                        <rect key="frame" x="0.0" y="141" width="309" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="ub4-dR-MDb"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="tNh-kP-2mN" firstAttribute="leading" secondItem="F83-u8-5GL" secondAttribute="leading" constant="10" id="8vt-ge-qXq"/>
+                            <constraint firstAttribute="bottom" secondItem="tNh-kP-2mN" secondAttribute="bottom" constant="10" id="G4k-Ko-dTi"/>
+                            <constraint firstAttribute="trailing" secondItem="tNh-kP-2mN" secondAttribute="trailing" constant="10" id="R1S-ro-fgA"/>
+                            <constraint firstItem="tNh-kP-2mN" firstAttribute="top" secondItem="F83-u8-5GL" secondAttribute="top" constant="10" id="f06-dR-017"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="F83-u8-5GL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="ML8-2q-dac"/>
+                    <constraint firstItem="F83-u8-5GL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="jGB-il-8em"/>
+                    <constraint firstAttribute="trailing" secondItem="F83-u8-5GL" secondAttribute="trailing" constant="10" id="kQK-pg-pLo"/>
+                    <constraint firstAttribute="bottom" secondItem="F83-u8-5GL" secondAttribute="bottom" constant="10" id="rfI-r6-FuF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="avatarImage" destination="9Cy-Sg-PIb" id="Yiy-KU-Qpw"/>
+                <outlet property="feelImageView" destination="BWO-fL-mnf" id="MK9-0T-FaA"/>
+                <outlet property="nameLabel" destination="iQ9-ya-C7x" id="bMR-L7-qKT"/>
+                <outlet property="tweetLabel" destination="eQk-zE-uBh" id="F7u-RM-V9H"/>
+                <outlet property="usernameLabel" destination="2E6-7l-u7x" id="oMs-Hm-ZmX"/>
+            </connections>
+            <point key="canvasLocation" x="160" y="191"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Neg" width="512" height="512"/>
+    </resources>
+</document>

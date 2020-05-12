@@ -3,13 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A727FB0E5865657598C85AE /* Pods_Tweetect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04327E6036D8F850124C90DD /* Pods_Tweetect.framework */; };
+		9E039F782469DF650059DD6F /* TweetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E039F772469DF650059DD6F /* TweetData.swift */; };
+		9E039F81246A0BBE0059DD6F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E039F80246A0BBE0059DD6F /* CardView.swift */; };
+		9E039F84246A10BA0059DD6F /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E039F82246A10BA0059DD6F /* TweetTableViewCell.swift */; };
+		9E039F85246A10BA0059DD6F /* TweetTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E039F83246A10BA0059DD6F /* TweetTableViewCell.xib */; };
+		9E039F88246A1AB00059DD6F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E039F87246A1AB00059DD6F /* Constants.swift */; };
 		9E94D6432461FFD10017FD14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E94D6422461FFD10017FD14 /* AppDelegate.swift */; };
 		9E94D6452461FFD10017FD14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E94D6442461FFD10017FD14 /* SceneDelegate.swift */; };
-		9E94D6472461FFD10017FD14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E94D6462461FFD10017FD14 /* ViewController.swift */; };
+		9E94D6472461FFD10017FD14 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E94D6462461FFD10017FD14 /* HomeViewController.swift */; };
 		9E94D64A2461FFD10017FD14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E94D6482461FFD10017FD14 /* Main.storyboard */; };
 		9E94D64C2461FFD30017FD14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E94D64B2461FFD30017FD14 /* Assets.xcassets */; };
 		9E94D64F2461FFD30017FD14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E94D64D2461FFD30017FD14 /* LaunchScreen.storyboard */; };
@@ -71,10 +77,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		04327E6036D8F850124C90DD /* Pods_Tweetect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tweetect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BA6D0FC030A239175B01959 /* Pods-Tweetect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tweetect.release.xcconfig"; path = "Target Support Files/Pods-Tweetect/Pods-Tweetect.release.xcconfig"; sourceTree = "<group>"; };
+		1AAF51D031B98931EAAFDAFB /* Pods-Tweetect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tweetect.debug.xcconfig"; path = "Target Support Files/Pods-Tweetect/Pods-Tweetect.debug.xcconfig"; sourceTree = "<group>"; };
+		9E039F772469DF650059DD6F /* TweetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetData.swift; sourceTree = "<group>"; };
+		9E039F80246A0BBE0059DD6F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		9E039F82246A10BA0059DD6F /* TweetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
+		9E039F83246A10BA0059DD6F /* TweetTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TweetTableViewCell.xib; sourceTree = "<group>"; };
+		9E039F87246A1AB00059DD6F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		9E94D63F2461FFD10017FD14 /* Tweetect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tweetect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E94D6422461FFD10017FD14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E94D6442461FFD10017FD14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9E94D6462461FFD10017FD14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9E94D6462461FFD10017FD14 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9E94D6492461FFD10017FD14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E94D64B2461FFD30017FD14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E94D64E2461FFD30017FD14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -89,12 +103,43 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E94D66C24620DE90017FD14 /* SwifteriOS.framework in Frameworks */,
+				1A727FB0E5865657598C85AE /* Pods_Tweetect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E039F7A246A0B9D0059DD6F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9E94D64D2461FFD30017FD14 /* LaunchScreen.storyboard */,
+				9E94D6482461FFD10017FD14 /* Main.storyboard */,
+				9E039F80246A0BBE0059DD6F /* CardView.swift */,
+				9E039F82246A10BA0059DD6F /* TweetTableViewCell.swift */,
+				9E039F83246A10BA0059DD6F /* TweetTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9E039F86246A1A940059DD6F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9E94D6422461FFD10017FD14 /* AppDelegate.swift */,
+				9E94D6442461FFD10017FD14 /* SceneDelegate.swift */,
+				9E039F87246A1AB00059DD6F /* Constants.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9E2BCD7C246B2191005FF1B8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9E94D6462461FFD10017FD14 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		9E94D6362461FFD10017FD14 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +147,7 @@
 				9E94D6412461FFD10017FD14 /* Tweetect */,
 				9E94D6402461FFD10017FD14 /* Products */,
 				9E94D66B24620DE90017FD14 /* Frameworks */,
+				E54A2F6E21A5A6CFECCE1296 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,13 +162,11 @@
 		9E94D6412461FFD10017FD14 /* Tweetect */ = {
 			isa = PBXGroup;
 			children = (
+				9E039F86246A1A940059DD6F /* Main */,
+				9E039F7A246A0B9D0059DD6F /* View */,
 				9E94D656246207B10017FD14 /* Model */,
-				9E94D6422461FFD10017FD14 /* AppDelegate.swift */,
-				9E94D6442461FFD10017FD14 /* SceneDelegate.swift */,
-				9E94D6462461FFD10017FD14 /* ViewController.swift */,
-				9E94D6482461FFD10017FD14 /* Main.storyboard */,
+				9E2BCD7C246B2191005FF1B8 /* Controller */,
 				9E94D64B2461FFD30017FD14 /* Assets.xcassets */,
-				9E94D64D2461FFD30017FD14 /* LaunchScreen.storyboard */,
 				9E94D6502461FFD30017FD14 /* Info.plist */,
 			);
 			path = Tweetect;
@@ -132,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				9E94D657246207BD0017FD14 /* TweetectClassifier.mlmodel */,
+				9E039F772469DF650059DD6F /* TweetData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -151,8 +196,18 @@
 		9E94D66B24620DE90017FD14 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				04327E6036D8F850124C90DD /* Pods_Tweetect.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E54A2F6E21A5A6CFECCE1296 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AAF51D031B98931EAAFDAFB /* Pods-Tweetect.debug.xcconfig */,
+				0BA6D0FC030A239175B01959 /* Pods-Tweetect.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,10 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E94D6532461FFD30017FD14 /* Build configuration list for PBXNativeTarget "Tweetect" */;
 			buildPhases = (
+				1AFD22925737A06557FD9754 /* [CP] Check Pods Manifest.lock */,
 				9E94D63B2461FFD10017FD14 /* Sources */,
 				9E94D63C2461FFD10017FD14 /* Frameworks */,
 				9E94D63D2461FFD10017FD14 /* Resources */,
 				9E94D66E24620DE90017FD14 /* Embed Frameworks */,
+				3B0C9E4271AD56FF2CE1EFB0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +315,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E039F85246A10BA0059DD6F /* TweetTableViewCell.xib in Resources */,
 				9E94D64F2461FFD30017FD14 /* LaunchScreen.storyboard in Resources */,
 				9E94D64C2461FFD30017FD14 /* Assets.xcassets in Resources */,
 				9E94D64A2461FFD10017FD14 /* Main.storyboard in Resources */,
@@ -266,15 +324,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1AFD22925737A06557FD9754 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tweetect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B0C9E4271AD56FF2CE1EFB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tweetect/Pods-Tweetect-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tweetect/Pods-Tweetect-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tweetect/Pods-Tweetect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9E94D63B2461FFD10017FD14 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9E94D658246207BD0017FD14 /* TweetectClassifier.mlmodel in Sources */,
-				9E94D6472461FFD10017FD14 /* ViewController.swift in Sources */,
+				9E039F782469DF650059DD6F /* TweetData.swift in Sources */,
+				9E94D6472461FFD10017FD14 /* HomeViewController.swift in Sources */,
 				9E94D6432461FFD10017FD14 /* AppDelegate.swift in Sources */,
+				9E039F81246A0BBE0059DD6F /* CardView.swift in Sources */,
 				9E94D6452461FFD10017FD14 /* SceneDelegate.swift in Sources */,
+				9E039F84246A10BA0059DD6F /* TweetTableViewCell.swift in Sources */,
+				9E039F88246A1AB00059DD6F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +520,7 @@
 		};
 		9E94D6542461FFD30017FD14 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AAF51D031B98931EAAFDAFB /* Pods-Tweetect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -434,6 +539,7 @@
 		};
 		9E94D6552461FFD30017FD14 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BA6D0FC030A239175B01959 /* Pods-Tweetect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
